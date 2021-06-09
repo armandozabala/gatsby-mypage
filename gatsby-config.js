@@ -7,15 +7,14 @@
 module.exports = {
   /* Your site config here */
   plugins: [
-    'gatsby-plugin-postcss',
-    'gatsby-transformer-json',
+    `gatsby-plugin-postcss`,
+    `gatsby-transformer-json`,
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: `gatsby-source-filesystem`,
       options:{
-         name: 'data',
+         name: `data`,
          path: `${__dirname}/src/data`
       }
     }
   ],
-
 }

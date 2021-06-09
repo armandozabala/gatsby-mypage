@@ -1,0 +1,12 @@
+{
+    "slug": "presencial",
+    "title": "Formacion Academica",
+    "descripcion": "Formacion Presencial",
+    "items":[
+        {
+            "name":"Universidad de Oriente",
+            "degree": "Ing en Computacion",
+            "score": "90"
+        }
+    ]
+}

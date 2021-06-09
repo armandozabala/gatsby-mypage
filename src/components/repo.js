@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default ({ repo }) => (
+export  default ({ repo }) => (
       <li className="flex items-center">
           <div className="w-10/12 overflow-x-hidden">
                 <h4 className="text-pink-600 font-bold truncate">{repo.name}</h4>

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import repo from '../data/repo';
 import fetchRepo from '../libs/fetchRepo';
 import Repo from './repo';
 
