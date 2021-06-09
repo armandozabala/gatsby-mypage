@@ -20,8 +20,6 @@ export default () => {
              myPost = await resp.json();
              sessionStorage.setItem('posts',JSON.stringify(myPost));
 
-             console.log(myPost.items);
-
              setPosts(myPost.items);
         }
 

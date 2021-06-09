@@ -1,6 +1,6 @@
 
 
-export const FetchRepo = async () => {
+export default async () => {
   const response = await fetch("https://api.github.com/users/armandozabala/repos");
   let myRepos = await response.json();
   return myRepos;
